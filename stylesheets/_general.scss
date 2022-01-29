@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea, input, select, button {
+  font: inherit;
+}
+
+html {
+  font-size: 1.2rem;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: mediumspringgreen;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+button {
+  padding: 0.7em;
+  cursor: pointer;
+}

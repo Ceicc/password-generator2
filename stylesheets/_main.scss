@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  textarea {
+    background-color: lightblue;
+    padding: 0.55em;
+    font-family: "Courier New", Courier, monospace;
+    border: none;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #generate {
+    background-color: rgba(186, 85, 211, 0.95);
+    margin-right: 0.3em;
+  }
+  
+  #copy {
+    background-color: rgba(65, 105, 225, 0.95);
+    margin-left: 0.3em;
+  }
+}

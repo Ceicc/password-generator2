@@ -1,0 +1,28 @@
+{
+  "name": "password-generator2",
+  "version": "1.0.0",
+  "description": "Like the original password generator but with react",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "webpack -w",
+    "build": "webpack --mode production"
+  },
+  "author": "Husam Ahmed <husam999h@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-react": "^7.16.7",
+    "@ceicc/range": "^2.1.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

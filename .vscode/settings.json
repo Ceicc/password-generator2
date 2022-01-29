@@ -1,0 +1,13 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/public/stylesheets"
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "/stylesheets/style.scss"
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "Error"
+}

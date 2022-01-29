@@ -1,0 +1,28 @@
+@use "general";
+@use "header";
+@use "main";
+@use "footer";
+
+#react-root {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+#show-more {
+  padding: 0.2em 1.5em;
+}
+#show-more::after {
+  content: '\002193';
+  display: inline-block;
+  transition: transform ease 0.25s 0.03s;
+}
+#show-more.visible::after {
+  transform: rotateX(180deg) rotateY(180deg);
+}
+#show-more.visible ~ footer {
+  visibility: visible;
+}
